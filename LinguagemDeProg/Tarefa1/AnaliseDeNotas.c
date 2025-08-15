@@ -19,7 +19,8 @@ int main(){
         printf("Reprovado! Sua media e: %.2f\n", media);
     }
     printf("Deseja analisar outra media? (s/n): ");
-        scanf(" %c", &continuar); // Espaço antes do %c para ignorar enter anterior
+        scanf(" %c", &continuar); 
     } while (continuar == 's' || continuar == 'S');
     return 0;
+
 }
