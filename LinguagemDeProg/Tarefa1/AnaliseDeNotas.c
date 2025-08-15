@@ -2,7 +2,7 @@
 
 int main(){
     float nota1, nota2, nota3,nota4, media;
-    char continuar;
+
     printf("====ANALISE DE NOTAS====\n");
     printf("Digite a primeira nota: \n");
     scanf("%f", &nota1);
@@ -18,9 +18,7 @@ int main(){
     } else {
         printf("Reprovado! Sua media e: %.2f\n", media);
     }
-    printf("Deseja analisar outra media? (s/n): ");
-        scanf(" %c", &continuar); 
-    } while (continuar == 's' || continuar == 'S');
     return 0;
 
 }
+
